@@ -218,6 +218,19 @@ header {
 .images img {
   padding-left: 90px;
 }
+/* Footer styling  */
+.footer-design{
+  padding-top:100px;
+  margin: 50px 50px;
+  
+}
+.footer-title{
+  background-color: #FFF4E7;
+  color: #727272;
+  text-align: center;
+  padding: 20px 20px;
+  
+}
 /* -------------------------------------Media query--------------
   */
 
