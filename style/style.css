@@ -128,7 +128,6 @@ header {
   border: none;
   font-size: 40px;
   bottom: 10px;
-
 }
 .quick-list-contents-one-box p {
   color: #727272;
@@ -136,7 +135,47 @@ header {
 .quick-list-contents-one-box {
   box-shadow: 2px 5px 5px #727272;
 }
-
+/* some facts styling   */
+.some-facts-container {
+  margin-top: 200px;
+}
+.some-facts-title {
+  font-size: 30px;
+  margin-left: 50px;
+}
+.some-facts-subtitle {
+  color: #727272;
+  margin-left: 50px;
+  padding-bottom: 30px;
+}
+.card-one {
+  border: 2px solid orange;
+  border-radius: 10px;
+  text-align: center;
+}
+.card-one p {
+  color: #727272;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.card-one img {
+  padding-top: 30px;
+}
+.card-one:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+.card-one h2 {
+  font-size: 30px;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
 /* -------------------------------------Media query--------------
   */
 
@@ -183,7 +222,15 @@ header {
     text-align: center;
     margin-right: 50px;
   }
-  quick-list-contents-one img {
-    padding-top: 55px;
+  .quick-list-contents-one img {
+    
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .card-one {
+    margin-top: 10px;
   }
 }
